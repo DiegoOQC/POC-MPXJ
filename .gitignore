@@ -1,0 +1,64 @@
+# ==================================================
+# Java / Build artifacts
+# ==================================================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+
+# Build directories
+/build/
+/dist/
+/out/
+/target/
+bin/
+
+# ==================================================
+# NetBeans (Ant + Maven)
+# ==================================================
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+
+# NetBeans internal caches
+/.nbintdb/
+/.nbintdb/
+/.nbmigrations/
+
+# ==================================================
+# Maven
+# ==================================================
+# Local Maven cache (NUNCA versionar)
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ==================================================
+# IDEs adicionais (opcional, mas seguro)
+# ==================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ==================================================
+# Sistema operacional
+# ==================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==================================================
+# Temporários / backups
+# ==================================================
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
